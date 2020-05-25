@@ -1,13 +1,3 @@
-/**
-* Template Name: MyResume - v2.0.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -109,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+    margin-left: 0%;
   }
 }
 
@@ -132,12 +123,14 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     border-right: 1px solid #e6e9ec;
     left: -300px;
+    margin-left: 0%;
   }
 }
 
 @media (min-width: 992px) {
   #main {
     margin-left: 100px;
+    
   }
 }
 
@@ -255,6 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 100px;
+    margin-left: 0%;
   }
 }
 
@@ -320,15 +314,21 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
+    margin-left: 0%;
   }
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    margin-left: 0%;
   }
   #hero p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    margin-left: 0%;
+  }
+  #hero .social-links {
+    margin-left:0%;
   }
 }
 
@@ -382,6 +382,10 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 992px) {
+ .section-title h2 {
+    margin-left: 0%; } 
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -492,6 +496,11 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #f5a8a8;
+}
+@media (max-width: 992px) {
+  .resume .resume-item h4 {
+    left: 0%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -798,59 +807,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding: 40px 0;
-}
-
-.portfolio-details .portfolio-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
-}
-
-.portfolio-details .portfolio-info {
-  padding-top: 45px;
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-info p {
-  font-size: 15px;
-  padding: 15px 0 0 0;
-}
-
-@media (max-width: 992px) {
-  .portfolio-details .portfolio-info {
-    padding-top: 20px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
